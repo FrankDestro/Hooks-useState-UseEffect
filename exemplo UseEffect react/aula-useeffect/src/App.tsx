@@ -15,6 +15,7 @@ function App() {
     setProd(findProduct(productId));
   }, [productId])
 
+
   function handleClick () {
     console.log("passou no handleClick")
     setProductId(2);

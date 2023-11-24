@@ -13,7 +13,6 @@ const products = [
 
 ];
 
-
 export function findProduct(id : number) {
     return products.find(x => x.id === id);
 
